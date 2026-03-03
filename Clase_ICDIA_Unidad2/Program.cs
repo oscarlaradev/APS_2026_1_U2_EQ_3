@@ -1,3 +1,5 @@
+using System.Reflection;
+
 namespace Clase_ICDIA_Unidad2;
 
 public class Program
@@ -10,6 +12,7 @@ public class Program
         Console.WriteLine("Selecciona el ejercicio a ejecutar:");
         Console.WriteLine("1. Par o impar");
         Console.WriteLine("2. Suma A + B");
+        Console.WriteLine("3. Invertir x y");
         int idx = int.Parse(Console.ReadLine() ?? "0");
         
         switch (idx)
@@ -19,6 +22,12 @@ public class Program
                 break;
             case 2:
                 new RunnerSumaAB();
+                break;
+            case 3:
+                new RunnerInvertirXY();
+                break;
+            default:
+                Console.WriteLine("Opción no válida");
                 break;
         }
 
