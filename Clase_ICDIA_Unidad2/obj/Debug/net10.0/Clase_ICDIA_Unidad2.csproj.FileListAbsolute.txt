@@ -1,0 +1,15 @@
+/workspaces/APS_2026_1_U2_EQ_3/Clase_ICDIA_Unidad2/bin/Debug/net10.0/Clase_ICDIA_Unidad2
+/workspaces/APS_2026_1_U2_EQ_3/Clase_ICDIA_Unidad2/bin/Debug/net10.0/Clase_ICDIA_Unidad2.deps.json
+/workspaces/APS_2026_1_U2_EQ_3/Clase_ICDIA_Unidad2/bin/Debug/net10.0/Clase_ICDIA_Unidad2.runtimeconfig.json
+/workspaces/APS_2026_1_U2_EQ_3/Clase_ICDIA_Unidad2/bin/Debug/net10.0/Clase_ICDIA_Unidad2.dll
+/workspaces/APS_2026_1_U2_EQ_3/Clase_ICDIA_Unidad2/bin/Debug/net10.0/Clase_ICDIA_Unidad2.pdb
+/workspaces/APS_2026_1_U2_EQ_3/Clase_ICDIA_Unidad2/obj/Debug/net10.0/Clase_ICDIA_Unidad2.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/APS_2026_1_U2_EQ_3/Clase_ICDIA_Unidad2/obj/Debug/net10.0/Clase_ICDIA_Unidad2.AssemblyInfoInputs.cache
+/workspaces/APS_2026_1_U2_EQ_3/Clase_ICDIA_Unidad2/obj/Debug/net10.0/Clase_ICDIA_Unidad2.AssemblyInfo.cs
+/workspaces/APS_2026_1_U2_EQ_3/Clase_ICDIA_Unidad2/obj/Debug/net10.0/Clase_ICDIA_Unidad2.csproj.CoreCompileInputs.cache
+/workspaces/APS_2026_1_U2_EQ_3/Clase_ICDIA_Unidad2/obj/Debug/net10.0/Clase_ICDIA_Unidad2.sourcelink.json
+/workspaces/APS_2026_1_U2_EQ_3/Clase_ICDIA_Unidad2/obj/Debug/net10.0/Clase_ICDIA_Unidad2.dll
+/workspaces/APS_2026_1_U2_EQ_3/Clase_ICDIA_Unidad2/obj/Debug/net10.0/refint/Clase_ICDIA_Unidad2.dll
+/workspaces/APS_2026_1_U2_EQ_3/Clase_ICDIA_Unidad2/obj/Debug/net10.0/Clase_ICDIA_Unidad2.pdb
+/workspaces/APS_2026_1_U2_EQ_3/Clase_ICDIA_Unidad2/obj/Debug/net10.0/Clase_ICDIA_Unidad2.genruntimeconfig.cache
+/workspaces/APS_2026_1_U2_EQ_3/Clase_ICDIA_Unidad2/obj/Debug/net10.0/ref/Clase_ICDIA_Unidad2.dll
