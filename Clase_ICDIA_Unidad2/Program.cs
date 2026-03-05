@@ -17,6 +17,7 @@ public class Program
         Console.WriteLine("4. Comprobar mayoría de edad");
         Console.WriteLine("5. A B número mayor");
         Console.WriteLine("6. Multiplicación A * B");
+        Console.WriteLine("7. Suma A + B genérica");
         int idx = int.Parse(Console.ReadLine() ?? "0");
         
         switch (idx)
@@ -38,6 +39,9 @@ public class Program
                 break;
             case 6:
                 new RunnerMultiplicacionAB();
+                break;
+            case 7:
+                new RunnerEjercicioABGenerico();
                 break;
             default:
                 Console.WriteLine("Opción no válida");
