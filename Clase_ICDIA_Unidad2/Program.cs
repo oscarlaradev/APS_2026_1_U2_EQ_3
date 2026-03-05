@@ -18,6 +18,7 @@ public class Program
         Console.WriteLine("5. A B número mayor");
         Console.WriteLine("6. Multiplicación A * B");
         Console.WriteLine("7. Suma A + B genérica");
+        Console.WriteLine("8. Cantidad de efectivo");
         int idx = int.Parse(Console.ReadLine() ?? "0");
         
         switch (idx)
@@ -42,6 +43,9 @@ public class Program
                 break;
             case 7:
                 new RunnerEjercicioABGenerico();
+                break;
+            case 8:
+                new Runner_Cantidad_EfectivoPedido();
                 break;
             default:
                 Console.WriteLine("Opción no válida");
