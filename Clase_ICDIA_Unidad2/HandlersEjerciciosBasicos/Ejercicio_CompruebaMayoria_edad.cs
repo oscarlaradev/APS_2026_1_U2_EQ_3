@@ -11,7 +11,7 @@ public class Ejercicio_CompruebaMayoria_edad : Ejercicio
    }
 
    public Ejercicio_CompruebaMayoria_edad(int edad) :
-      base(3, 
+      base(6, 
          "Checar Si es Ciudadano", 
          "Comprueba si dada una edad la persona es ciudadana")
    {
