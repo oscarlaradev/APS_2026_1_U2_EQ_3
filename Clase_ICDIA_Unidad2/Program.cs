@@ -24,6 +24,7 @@ public class Program
         Console.WriteLine("11. Promedio de 3 calificaciones");
         Console.WriteLine("12. Número primo");
         Console.WriteLine("13. Factorial");
+        Console.WriteLine("14. Línea recta");
         int idx = int.Parse(Console.ReadLine() ?? "0");
         
         switch (idx)
@@ -66,6 +67,9 @@ public class Program
                 break;
             case 13:
                 new Runner_Factorial();
+                break;
+            case 14:
+                new Runner_EjercicioLineaRecta();
                 break;
             default:
                 Console.WriteLine("Opción no válida");
