@@ -6,17 +6,24 @@ public class Runner_DistanciaEntreDosPuntos
 {
     public Runner_DistanciaEntreDosPuntos()
     {
-        int a,b, c, d;
-        //punto 1
-        a = 2;
-        b = 4;
-        //punto 2 
-        c = 5;
-        d = 3;
+        try
+        {
+            int a,b, c, d;
+            //punto 1
+            a = 2;
+            b = 4;
+            //punto 2 
+            c = 5;
+            d = 3;
 
-        Ejercicio ejercicio;
-        ejercicio = new Ejercicio_DistanciaEntreDosPuntos<int>(
-            a, b, c, d);
-        ejercicio.Ejecutar();
+            Ejercicio ejercicio;
+            ejercicio = new Ejercicio_DistanciaEntreDosPuntos<int>(
+                a, b, c, d);
+            ejercicio.Ejecutar();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("Error: " + ex.Message);
+        }
     }
 }

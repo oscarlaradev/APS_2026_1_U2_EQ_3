@@ -23,8 +23,20 @@ public class Ejercicio_Factorial : Ejercicio
     {
         int factorial = 1;
 
+        Console.Write("Proceso: ");
+
         for (int i = 1; i <= Numero; i++)
+        {
+            if (i > 1)
+            {
+                Console.Write(" x ");
+            }
+
+            Console.Write(i);
             factorial *= i;
+        }
+
+        Console.WriteLine();
 
         Console.WriteLine("El factorial de " + Numero + " es: " + factorial);
     }

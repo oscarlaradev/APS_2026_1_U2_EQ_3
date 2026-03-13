@@ -6,12 +6,23 @@ public class Runner_NumPrimo
 {
     public Runner_NumPrimo()
     {
-        int numero;
-        Console.WriteLine("Ingrese un numero:");
-        numero = Convert.ToInt32(Console.ReadLine());
+        try
+        {
+            int numero;
+            Console.WriteLine("Ingrese un numero:");
+            numero = int.Parse(Console.ReadLine() ?? "");
 
-        Ejercicio ejercicio;
-        ejercicio = new Ejercicio_NumPrimo(numero);
-        ejercicio.Ejecutar();
+            Ejercicio ejercicio;
+            ejercicio = new Ejercicio_NumPrimo(numero);
+            ejercicio.Ejecutar();
+        }
+        catch (FormatException)
+        {
+            Console.WriteLine("Error: debes ingresar un número entero válido.");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("Error: " + ex.Message);
+        }
     }
 }
