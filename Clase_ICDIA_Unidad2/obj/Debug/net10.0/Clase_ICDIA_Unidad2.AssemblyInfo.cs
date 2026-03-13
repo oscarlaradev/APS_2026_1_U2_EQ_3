@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Clase_ICDIA_Unidad2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee6d8866fe521febb320653bc7053ee0ed7ae3bb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb2baa18a97e9a3abee185cbce727e98be2fb897")]
 [assembly: System.Reflection.AssemblyProductAttribute("Clase_ICDIA_Unidad2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Clase_ICDIA_Unidad2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
