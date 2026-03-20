@@ -154,6 +154,18 @@ public class Program
                 case 16:
                     new Ej_ListaEnlazada();
                     break;
+                case 17:
+                    new Lista();
+                    break;
+                case 18:
+                    new Pokemon();
+                    break;
+                case 19:
+                    new JuegoDado();
+                    break;
+                case 20:
+                    new MainJuego();
+                    break;
                 default:
                     Console.WriteLine("Opción no válida");
                     break;
