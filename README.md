@@ -1,50 +1,48 @@
 # APS_2026_1_U2_EQ_3
 
-Proyecto de ejercicios de programación en C# (.NET 10) correspondiente a la Unidad 2.
+Proyecto académico en C# (.NET 10) para la Unidad 2, orientado a practicar fundamentos de programación, POO, colecciones, herencia y simulaciones por consola.
 
-## Organización
+## Arquitectura
 
-El proyecto sigue una arquitectura de dos capas por ejercicio:
+El proyecto está organizado con separación de responsabilidades:
 
-- **Handlers** (`HandlersEjerciciosBasicos/`) — contienen la lógica y reglas de negocio de cada ejercicio, usando herencia desde la clase base `Ejercicio`.
-- **Runners** (`EjecutoresDeEjercicios/`) — gestionan la entrada/salida por consola e invocan al handler correspondiente.
+- **Handlers**: concentran la lógica de cada ejercicio.
+- **Runners**: gestionan interacción por consola y ejecución.
+- **Clase base `Ejercicio`**: estandariza el comportamiento mediante herencia.
 
-Además cuenta con módulos de apoyo:
+## Contenido actual
 
-- **`auxiliar/`** — utilidades compartidas, como la clase genérica `Punto<T>`.
-- **`ListasGenericas/`** — ejemplos de uso de `List<T>`, `ArrayList` y `LinkedList<T>`.
-- **`Herencia/`** — jerarquía de clases (`Jugador → JugadorSupport → SupporType1`) para ilustrar herencia y polimorfismo.
+### 1) Bloque de ejercicios base
 
-## Ejercicios disponibles
+Incluye ejercicios clásicos de lógica y matemáticas (opciones 1 a 16), entre ellos:
 
-| # | Ejercicio |
-|---|-----------|
-| 1 | Par o impar |
-| 2 | Suma A + B |
-| 3 | Invertir X y Y |
-| 4 | Comprobar mayoría de edad |
-| 5 | A y B: número mayor |
-| 6 | Multiplicación A * B |
-| 7 | Suma A + B genérica |
-| 8 | Cantidad de efectivo |
-| 9 | Índice de masa corporal (IMC) |
-| 10 | Distancia entre dos puntos |
-| 11 | Promedio de 3 calificaciones |
-| 12 | Número primo |
-| 13 | Factorial (con proceso paso a paso) |
-| 14 | Línea recta (y = mx + b) |
-| 15 | Perímetro de un polígono regular |
-| 16 | Lista enlazada |
+- Par o impar, suma, multiplicación e intercambio de variables.
+- Validaciones de mayoría de edad, número mayor, número primo.
+- IMC, distancia entre puntos, promedio de calificaciones.
+- Factorial con visualización del proceso.
+- Línea recta (`y = mx + b`) y perímetro de polígono regular.
+- Ejemplo de listas enlazadas con `List<T>`.
 
-## Cómo ejecutar
+### 2) Módulos adicionales recientes
 
-Desde la carpeta `Clase_ICDIA_Unidad2`:
+- **ListasGenericas**: prácticas adicionales con listas y generación aleatoria.
+- **Herencia**: jerarquía `Jugador -> JugadorSupport -> SupporType1`.
+- **JuegosAzar**: simulación de juego de dados (`Dado`, `JuegoDado`).
+- **RPG_Mini**: base de juego RPG con personajes, enemigos y flujo principal (`MainJuego`).
+
+### 3) Menú principal
+
+El `Program.cs` mantiene el enfoque tradicional con `switch`, incorporando tanto ejercicios base como módulos extra de práctica.
+
+## Ejecución
+
+Desde la carpeta del proyecto `Clase_ICDIA_Unidad2`:
 
 ```bash
 dotnet run
 ```
 
-Ingresa el número del ejercicio cuando el menú lo solicite. Para compilar sin ejecutar:
+Para compilar sin ejecutar:
 
 ```bash
 dotnet build
