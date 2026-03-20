@@ -17,7 +17,7 @@ public class JugadorSupport : Jugador
         Habilidad = habilidad;
     }
 
-    public void Atacar()
+    public override void Atacar()
     {
         Console.WriteLine(Name + " está atacando con " + Habilidad);
     }

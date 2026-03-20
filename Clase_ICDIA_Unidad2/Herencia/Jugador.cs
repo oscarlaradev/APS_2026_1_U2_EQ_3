@@ -15,7 +15,7 @@ public class Jugador
         Name = name;
     }
 
-    public void Atacar()
+    public virtual void Atacar()
     {
         Console.WriteLine(Name + " está atacando.");
     }
